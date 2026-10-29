@@ -18,7 +18,7 @@ describe("SimpleMath", function () {
   it("should multiply two numbers correctly", async function () { // Test case
     // assert.isTrue(false);
     const SimpleMath = await ethers.deployContract("SimpleMath");
-    assert.equal(await SimpleMath.multiply(2n, 3n), 5n);
+    assert.equal(await SimpleMath.multiply(2n, 3n), 6n);
   });
 
   it("should divide two numbers correctly", async function () { // Test case
